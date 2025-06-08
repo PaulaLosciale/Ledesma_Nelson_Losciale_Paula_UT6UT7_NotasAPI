@@ -1,9 +1,10 @@
 package com.appnelsonpaula.notasapi.repository;
-import java.util.List;
+
+import com.appnelsonpaula.notasapi.model.NotaModel;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import com.appnelsonpaula.notasapi.model.NotaModel;
+import java.util.List;
 
 @Repository
 public interface NotaRepository extends JpaRepository<NotaModel, Long> {
